@@ -3,17 +3,21 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/semantic.css' %}">
+
     <script src="{% static 'js/vendor/react.js' %}"></script>
     <script src="{% static 'js/vendor/react-dom.js' %}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js">
+    <script src="https://npmcdn.com/react-router/umd/ReactRouter.min.js"></script>
 
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <script src="{% static 'js/vendor/semantic.js' %}"></script>
 
     <script type="text/babel" src="{% static 'js/app.js' %}"></script>
     <title>Sample</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="ui container" id="app"></div>
   </body>
 </html>
